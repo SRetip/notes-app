@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Note</title>
+    <link rel="stylesheet" href="../css/note.css">
+</head>
+<body onload="load()">
+<div>
+</p><label for="topic">Topic</label><input type="text" id="topic">
+</p><label for="date">Date</label><input type="date" id="date">
+</p><textarea id="content" rows="10" cols="30">Content</textarea>
+<p><input type="button" onclick="del()" value="delete">
+    <input type="button" onclick="update()" value="update"></p>
+<p><input type="button" onclick="window.location.replace('/html/homepage.html');" value="To home page"></p>
+<script src="../js/note.js"></script>
+</div>
+</body>
+</html>

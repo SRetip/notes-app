@@ -1,0 +1,13 @@
+
+div {
+    background-color: gainsboro;
+    left: 50%;
+    top: 50%;
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    transform: translate(-50%, -70%);
+    text-align: center;
+}
+
+

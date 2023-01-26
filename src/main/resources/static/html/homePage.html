@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="../css/home.css">
+</head>
+<body onload="load()">
+<p><input type="button" onclick="window.location.replace('/html/addNotePage.html');" value="Add new note"></p>
+<p>
+    <input type="button" onclick="prevPage()" value="Pev" id="prew">
+    <label id="n"></label>
+    <input type="button" onclick="nextPage()" value="Next" id="next">
+</p>
+<ul class="products clearfix" id="list">
+</ul>
+
+<script src="../js/home.js"></script>
+</body>
+</html>

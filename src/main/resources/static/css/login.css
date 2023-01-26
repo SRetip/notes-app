@@ -1,0 +1,18 @@
+
+.parent {
+    background-color: gainsboro;
+    left: 50%;
+    top: 50%;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    transform: translate(-50%, -70%);
+}
+h1{
+    text-align: center;
+}
+.but{
+    left: 5%;
+    position: absolute;
+}
+
