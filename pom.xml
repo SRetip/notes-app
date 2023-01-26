@@ -15,7 +15,6 @@
     <description>lab2</description>
     <properties>
         <java.version>1.8</java.version>
-        <mysql.connetor.version>8.0.15</mysql.connetor.version>
         <jsonwebtoken.version>0.9.1</jsonwebtoken.version>
     </properties>
     <dependencies>
@@ -62,12 +61,7 @@
             <artifactId>spring-security-test</artifactId>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>org.testcontainers</groupId>
-            <artifactId>testcontainers</artifactId>
-            <version>1.17.6</version>
-            <scope>test</scope>
-        </dependency>
+
 
         <dependency>
             <groupId>org.testcontainers</groupId>
@@ -84,17 +78,7 @@
 
     </dependencies>
 
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.testcontainers</groupId>
-                <artifactId>testcontainers-bom</artifactId>
-                <version>1.17.6</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
+
 
     <build>
         <plugins>
